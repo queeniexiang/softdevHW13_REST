@@ -1,4 +1,5 @@
 import urllib2
+import json 
 '''from flask import Flask, session, url_for, redirect, render_template, request
 import os
 
@@ -11,7 +12,8 @@ def parse():
     site_content = uResp.read()
     
     d = json.loads(site_content)
-    print(d)
+    explanation = d['explanation']
+    print(explanation)
     
 
 parse()
