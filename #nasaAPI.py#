@@ -1,4 +1,0 @@
-import urllib2
-
-
-def parse(): 
